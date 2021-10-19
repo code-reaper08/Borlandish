@@ -75,7 +75,11 @@ a.link-codepen {
   margin: 0;
   top: auto;
 }
-a.skip-link:hover, header div.container a.link-github:hover, a.link-downloadcss:hover, a.link-downloadhtml:hover, a.link-codepen:hover {
+a.skip-link:hover,
+header div.container a.link-github:hover,
+a.link-downloadcss:hover,
+a.link-downloadhtml:hover,
+a.link-codepen:hover {
     text-shadow: 5px 1px 0px var(--link-color);
 }
 a.skip-link {
