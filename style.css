@@ -173,7 +173,11 @@ footer.page-footer svg {
     padding: 0;
   }
 
-  a.skip-link, header div.container a.link-github, a.link-downloadcss, a.link-downloadhtml, a.link-codepen {
+  a.skip-link,
+  header div.container a.link-github,
+  a.link-downloadcss,
+  a.link-downloadhtml,
+  a.link-codepen {
     display: block;
   }
   
