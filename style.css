@@ -59,7 +59,9 @@ color: var(--link-color);
   border-bottom: 2px solid var(--link-color);
   margin: 0 0 4px 0;
 }
-
+a:hover {
+    text-shadow: 5px 1px 0px var(--alt-accent-color);
+}
 a.skip-link,
 header div.container a.link-github,
 a.link-downloadcss,
@@ -73,7 +75,9 @@ a.link-codepen {
   margin: 0;
   top: auto;
 }
-
+a.skip-link:hover, header div.container a.link-github:hover, a.link-downloadcss:hover, a.link-downloadhtml:hover, a.link-codepen:hover {
+    text-shadow: 5px 1px 0px var(--link-color);
+}
 a.skip-link {
   position: absolute;
 }
@@ -134,7 +138,12 @@ blockquote a:active {
   font-weight: bold;
   border-bottom: none;
 }
-
+blockquote a:hover,
+blockquote a:link:hover,
+blockquote a:visited:hover,
+blockquote a:active:hover {
+  text-shadow: 5px 1px 0px var(--link-color);
+}
 svg {
   height: 1.2em;
   fill: black;
